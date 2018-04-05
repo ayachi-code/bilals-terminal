@@ -5,5 +5,9 @@
 
 //Funcite maak gemaakt
 int maak(char naam[500]) {
+    //Maakt een bestand of opent het
+    FILE *bestand = fopen(maak,"w+");
+    //Sluit het bestand
+    fclose(bestand);
     return 0;
 }
