@@ -2,6 +2,8 @@
 #include <stdlib.h>
 //invoer uitvoer lib
 #include <stdio.h>
+//String libary die funcite heeft die handig zijn wat te maken heeft met strings.
+#include <string.h>
 //Importeerd maak.c bestand
 #include "commandos/maak.c"
 
@@ -17,6 +19,7 @@ int main(int argc, char **argv)
     printf("Bilal:shell>>> ");
     //De input word opgeslagen in de in put waarden
     scanf("%s",de_input_waarden);
+    //If statement die de comandos mogelijk maakt uittevoeren
     }
     return 0;
 }
