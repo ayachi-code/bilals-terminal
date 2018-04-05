@@ -4,7 +4,6 @@
 #include <stdio.h>
 
 //Funcite maak gemaakt
-int maak() 
-{
+int maak(char naam[500]) {
     return 0;
 }
