@@ -2,3 +2,8 @@
 #include <stdlib.h>
 //invoer uitvoer lib
 #include <stdio.h>
+
+
+int maak() {
+    
+}
