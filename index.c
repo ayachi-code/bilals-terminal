@@ -20,6 +20,10 @@ int main(int argc, char **argv)
     //De input word opgeslagen in de in put waarden
     scanf("%s",de_input_waarden);
     //If statement die de comandos mogelijk maakt uittevoeren
+    if (!strcmp(de_input_waarden,"clear")) {
+        //Typt iemand clear schoom de scherm
+        system("clear");
+    }
     }
     return 0;
 }
