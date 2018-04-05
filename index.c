@@ -17,13 +17,15 @@ int main(int argc, char **argv)
     while (1 == 1) {
     //De input display text dit is wat je er naast haat typen..
     printf("Bilal:shell>>> ");
-    //De input word opgeslagen in de in put waarden
-    scanf("%s",de_input_waarden);
+    //De input word opgeslagen in de in put waarden en staat spaties toe:)
+    scanf("%20[^\n]",de_input_waarden);
     //If statement die de comandos mogelijk maakt uittevoeren
     if (!strcmp(de_input_waarden,"clear")) {
         //Typt iemand clear schoom de scherm
         system("clear");
+    } else if(!strcmp(de_input_waarden,"maak")) {
+            printf("iemand wil een bestand maken \n");
     }
-    }
+}   
     return 0;
 }
