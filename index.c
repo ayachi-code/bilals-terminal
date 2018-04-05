@@ -8,5 +8,7 @@
 //Main functie
 int main(int argc, char **argv)
 {
+    //De input display text dit is wat je er naast haat typen..
+    printf("Bilal:shell>>> ");
     return 0;
 }
