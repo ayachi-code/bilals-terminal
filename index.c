@@ -8,6 +8,10 @@
 //Main functie
 int main(int argc, char **argv)
 {
+
+    //De input waarden met een buffer van 500
+    char de_input_waarden[500];
+
     //De input display text dit is wat je er naast haat typen..
     printf("Bilal:shell>>> ");
     return 0;
