@@ -18,7 +18,8 @@ int main(int argc, char **argv)
     //De input display text dit is wat je er naast haat typen..
     printf("Bilal:shell>>> ");
     //De input word opgeslagen in de in put waarden en staat spaties toe:)
-    scanf("%[^\n]%*c",de_input_waarden);
+    fgets(de_input_waarden,500,stdin);
+    printf("%s",de_input_waarden);
     //If statement die de comandos mogelijk maakt uittevoeren
     if (!strcmp(de_input_waarden,"clear")) {
         //Typt iemand clear schoom de scherm
