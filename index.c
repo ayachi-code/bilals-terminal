@@ -14,5 +14,7 @@ int main(int argc, char **argv)
 
     //De input display text dit is wat je er naast haat typen..
     printf("Bilal:shell>>> ");
+    //De input word opgeslagen in de in put waarden
+    scanf("%s",de_input_waarden);
     return 0;
 }
