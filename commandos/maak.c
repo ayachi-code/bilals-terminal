@@ -3,7 +3,8 @@
 //invoer uitvoer lib
 #include <stdio.h>
 
-
-int maak() {
-    
+//Funcite maak gemaakt
+int maak() 
+{
+    return 0;
 }
