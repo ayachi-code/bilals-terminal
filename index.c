@@ -61,6 +61,10 @@ int main(int argc, char **argv)
     }else if(zoek_maakmap_functie) {
         //als iemand mkmap intypte word  hier onder uitgevoerd
         printf("Iemand wil een map aan maken");
+        //Dit word uiteindelijke de value van het maken van een map
+        char *nieuwe_woord;
+        //Zoekt karakter waar hij kan splitsen
+        char *karakters = " ";
     } else {
         //Als commando niet bestaat voer dit onder uit.....
         printf("Commando: %s bestaat niet :(  \n",de_input_waarden);
