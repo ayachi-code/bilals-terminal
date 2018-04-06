@@ -9,9 +9,7 @@
 
 //Mkmap functie, met naam char variablen
 int mkmap(char naam[500]) {
-    //Opent een map met parameter naam
-    DIR *mapnaam = opendir(naam);
-    //Sluit map
-    closedir(mapnaam);
+    //Maakt map met argument
+    mkdir(naam,0777);
     return 0;
 }
