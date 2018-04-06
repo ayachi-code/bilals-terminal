@@ -102,6 +102,8 @@ int main(int argc, char **argv)
             //ALs iemand lees intypte dan voer dit uit onder^^^
             //Dit word uiteindelijke de value van het bestand naam en waar we in kunnen lezen
             char *nieuw_woord;
+            //String waar we kunnen splitsen
+            char *split_karakter = " ";
 
     } else {
         //Als commando niet bestaat voer dit onder uit.....
