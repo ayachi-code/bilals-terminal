@@ -22,6 +22,7 @@ int main(int argc, char **argv)
     char de_input_waarden[500];
     //Loopt het want dan kan je meer commandos doen i.p.v een
     while (1 == 1) {
+    //slaat huidigen map in var huidigen map
     getcwd(huidigen_map,sizeof(huidigen_map));
     //De input display text dit is wat je er naast haat typen..
     printf("Bilal:%s:shell>>> ",huidigen_map);
