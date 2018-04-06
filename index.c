@@ -16,6 +16,8 @@
 //Main functie
 int main(int argc, char **argv)
 {
+    //Huidigen map char variablen
+    char huidigen_map[500];
     //De input waarden met een buffer van 500
     char de_input_waarden[500];
     //Loopt het want dan kan je meer commandos doen i.p.v een
