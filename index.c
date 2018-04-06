@@ -10,7 +10,8 @@
 #include "commandos/weg.c"
 //Importeerd mkmap.c bestand gemaakt
 #include "commandos/mkmap.c"
-
+//OS libary unix geimporteerd
+#include <unistd.h>
 
 //Main functie
 int main(int argc, char **argv)
