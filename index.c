@@ -98,6 +98,11 @@ int main(int argc, char **argv)
         nieuwe_woord = strtok(NULL,karater);
         //Verwijderd map dan
         wgmap(nieuwe_woord);
+    } else if(zoek_lees_functie) {
+            //ALs iemand lees intypte dan voer dit uit onder^^^
+            //Dit word uiteindelijke de value van het bestand naam en waar we in kunnen lezen
+            char *nieuw_woord;
+
     } else {
         //Als commando niet bestaat voer dit onder uit.....
         printf("Commando: %s bestaat niet :(  \n",de_input_waarden);
