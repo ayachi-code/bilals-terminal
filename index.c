@@ -35,6 +35,8 @@ int main(int argc, char **argv)
         nieuwe_woord = strtok(de_input_waarden,zoek);
         //Splits het tussen nul en de spatie en dat geeft als gevolg het naam van de bestand
         nieuwe_woord = strtok(NULL,zoek);
+        //Maakt nu ene bestand van de 2e parameter en roept de maak functie die ik heb gemaakt aan
+        maak(nieuwe_woord);
     }
 }  
     return 0;
