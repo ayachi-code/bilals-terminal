@@ -6,6 +6,8 @@
 #include <string.h>
 //Importeerd maak.c bestand
 #include "commandos/maak.c"
+//Schoon scherm module geimporteerd
+#include <conio.h>
 
 //Main functie
 int main(int argc, char **argv)
