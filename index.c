@@ -8,6 +8,8 @@
 #include "commandos/maak.c"
 //Importeer werwijder.c bestand gemaakt
 #include "commandos/weg.c"
+//Importeerd mkmap.c bestand gemaakt
+#include <commandos/maak.c>
 
 
 //Main functie
