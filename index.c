@@ -79,6 +79,8 @@ int main(int argc, char **argv)
         mkmap(nieuwe_woord);
     }else if(zoek_wgmap_functie) {
         //Als wgmap word uitgevoerd dan word deze if statement uitgevoerd
+        //Dit word uiteindelijke de value van het verwijderen van het map
+        char *nieuwe_woord;
     } else {
         //Als commando niet bestaat voer dit onder uit.....
         printf("Commando: %s bestaat niet :(  \n",de_input_waarden);
