@@ -65,6 +65,10 @@ int main(int argc, char **argv)
         char *nieuwe_woord;
         //Zoekt karakter waar hij kan splitsen
         char *karakters = " ";
+        //Split ze met behulp van de spatie waar hij het weet
+        nieuwe_woord = strtok(de_input_waarden,karakters);
+        //Splits z edan met null en krijgt dan de value die we nodig hebben om te weten wat voor map wil de user maken.
+        nieuwe_woord = strtok(NULL,karakters);
     } else {
         //Als commando niet bestaat voer dit onder uit.....
         printf("Commando: %s bestaat niet :(  \n",de_input_waarden);
