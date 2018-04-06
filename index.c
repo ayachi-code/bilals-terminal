@@ -6,8 +6,6 @@
 #include <string.h>
 //Importeerd maak.c bestand
 #include "commandos/maak.c"
-//Schoon scherm module geimporteerd
-#include <conio.h>
 
 //Main functie
 int main(int argc, char **argv)
@@ -25,7 +23,7 @@ int main(int argc, char **argv)
     char *zoek_maak_functie = strstr(de_input_waarden,"maak");
     //If statement die de comandos mogelijk maakt uittevoeren
     if (!strcmp(de_input_waarden,"clear")) {
-        system("clear");
+        printf("\n\n\n\n\n\n\n\n\n\n\n\n\n");
     } else if(zoek_maak_functie) {
         //Als maak gevonden is dus al iemand maak uitvoerd dan word dit uitgevoerd...
         printf("Er word een bestand gemaakt... \n");
