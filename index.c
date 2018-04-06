@@ -19,6 +19,8 @@ int main(int argc, char **argv)
     printf("Bilal:shell>>> ");
     //De input word opgeslagen in de in put waarden en staat spaties toe:)
     scanf("%[^\n]%*c",de_input_waarden);
+    //Zoekt in string naar het woord maak
+    char *zoek_maak_functie = strstr(de_input_waarden,"maak");
     //If statement die de comandos mogelijk maakt uittevoeren
     if (!strcmp(de_input_waarden,"clear")) {
         system("clear");
