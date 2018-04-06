@@ -4,3 +4,9 @@
 #include <stdio.h>
 //File system geimporteerd
 #include <sys/stat.h>
+
+
+//wgmap functie gemaakt als parameter naam
+int wgmap(char naam[500]) {
+    return 0;
+}
