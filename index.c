@@ -6,6 +6,9 @@
 #include <string.h>
 //Importeerd maak.c bestand
 #include "commandos/maak.c"
+//Importeer werwijder.c bestand gemaakt
+#include "commandos/weg.c"
+
 
 //Main functie
 int main(int argc, char **argv)
