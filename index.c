@@ -29,7 +29,9 @@ int main(int argc, char **argv)
         printf("Er word een bestand gemaakt... \n");
         //Hier word uiteindelijke de paramteter opgeslagen en dan word het bestand gemaakt
         char *nieuwe_woord;
-        
+        //zoekt de karakter spatie karakter is opgeslagen in variablen
+        char *zoek = " ";
+
     }
 }  
     return 0;
