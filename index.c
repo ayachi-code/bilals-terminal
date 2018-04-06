@@ -44,6 +44,8 @@ int main(int argc, char **argv)
     char *zoek_wgmap_functie = strstr(de_input_waarden,"wgmap");
     //Zoekt naar lees in string scanf
     char *zoek_lees_functie = strstr(de_input_waarden,"lees");
+    //Zoekt naar ga in string scanf
+    char *zoek_ga_functie = strstr(de_input_waarden,"ga");
     //If statement die de comandos mogelijk maakt uittevoeren
     if (!strcmp(de_input_waarden,"clear")) {
         printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
