@@ -22,8 +22,9 @@ int main(int argc, char **argv)
     char de_input_waarden[500];
     //Loopt het want dan kan je meer commandos doen i.p.v een
     while (1 == 1) {
+    getcwd(huidigen_map,sizeof(huidigen_map));
     //De input display text dit is wat je er naast haat typen..
-    printf("Bilal:shell>>> ");
+    printf("Bilal:%s:shell>>> ",huidigen_map);
     //De input word opgeslagen in de in put waarden en staat spaties toe:)
     scanf("%[^\n]%*c",de_input_waarden);
     //Zoekt in string naar het woord maak
