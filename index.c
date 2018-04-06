@@ -48,6 +48,8 @@ int main(int argc, char **argv)
         char *nieuwe_woord;
         //Dit zoekt hij in de string om de string te splitsen en dat is eem spatie
         char *spatie = " ";
+        //Split de string tussen de woord en de spatie
+        nieuwe_woord = strtok(de_input_waarden,spatie);
     }
 }  
     return 0;
