@@ -27,6 +27,8 @@ int main(int argc, char **argv)
     char *zoek_maak_functie = strstr(de_input_waarden,"maak");
     //Zoekt naar weg in string scanf
     char *zoek_verwijder_functie = strstr(de_input_waarden,"weg");
+    //Zoekt naar mkmap  in string scanf
+    char *zoek_maakmap_functie = strstr(de_input_waarden,"mkmap");
     //If statement die de comandos mogelijk maakt uittevoeren
     if (!strcmp(de_input_waarden,"clear")) {
         printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
