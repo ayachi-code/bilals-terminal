@@ -69,6 +69,8 @@ int main(int argc, char **argv)
         nieuwe_woord = strtok(de_input_waarden,karakters);
         //Splits z edan met null en krijgt dan de value die we nodig hebben om te weten wat voor map wil de user maken.
         nieuwe_woord = strtok(NULL,karakters);
+        //maakt de map...
+        mkmap(nieuwe_woord);
     } else {
         //Als commando niet bestaat voer dit onder uit.....
         printf("Commando: %s bestaat niet :(  \n",de_input_waarden);
