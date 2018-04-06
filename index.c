@@ -12,7 +12,10 @@
 #include "commandos/mkmap.c"
 //OS libary unix geimporteerd
 #include <unistd.h>
+//Importeerd wgmap.c bestand
 #include "commandos/wgmap.c"
+//importeerd lees.c bestand
+#include "commandos/lees.c"
 
 //Main functie
 int main(int argc, char **argv)
