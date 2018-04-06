@@ -43,6 +43,9 @@ int main(int argc, char **argv)
         maak(nieuwe_woord);
     } else if(zoek_verwijder_functie) {
         //Als verwijder is gevonden voer onder uit
+        printf("bestand word verwijders \n");
+        //Hier word uiteindelijke de paramteter opgeslagen en dan word het bestand verwijderd
+        char *nieuwe_woord;
     }
 }  
     return 0;
