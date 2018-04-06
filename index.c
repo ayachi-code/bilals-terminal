@@ -77,6 +77,8 @@ int main(int argc, char **argv)
         nieuwe_woord = strtok(NULL,karakters);
         //maakt de map...
         mkmap(nieuwe_woord);
+    }else if(zoek_wgmap_functie) {
+        //Als wgmap word uitgevoerd dan word deze if statement uitgevoerd
     } else {
         //Als commando niet bestaat voer dit onder uit.....
         printf("Commando: %s bestaat niet :(  \n",de_input_waarden);
