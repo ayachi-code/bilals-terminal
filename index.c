@@ -9,7 +9,7 @@
 //Importeer werwijder.c bestand gemaakt
 #include "commandos/weg.c"
 //Importeerd mkmap.c bestand gemaakt
-#include <commandos/maak.c>
+#include "commandos/mkmap.c"
 
 
 //Main functie
@@ -58,6 +58,9 @@ int main(int argc, char **argv)
         nieuwe_woord = strtok(NULL,spatie);
         //Verwijderd het bestand met niewe_woord
         weg(nieuwe_woord);
+    }else if(zoek_maakmap_functie) {
+        //als iemand mkmap intypte word  hier onder uitgevoerd
+        printf("Iemand wil een map aan maken");
     } else {
         //Als commando niet bestaat voer dit onder uit.....
         printf("Commando: %s bestaat niet :(  \n",de_input_waarden);
