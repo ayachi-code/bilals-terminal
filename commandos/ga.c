@@ -8,5 +8,7 @@
 
 //Ga functie gemaakt met argument als path locatie
 int ga(char locatie[500]) {
+    //Gaat naar path
+    chdir(locatie);
     return 0;
 }
