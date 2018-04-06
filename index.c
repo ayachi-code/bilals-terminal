@@ -33,7 +33,8 @@ int main(int argc, char **argv)
         char *zoek = " ";
         //Splits het woord waar spatie is en pakt de eerste woord dus maak
         nieuwe_woord = strtok(de_input_waarden,zoek);
-
+        //Splits het tussen nul en de spatie en dat geeft als gevolg het naam van de bestand
+        nieuwe_woord = strtok(NULL,zoek);
     }
 }  
     return 0;
