@@ -24,7 +24,8 @@ int main(int argc, char **argv)
     //If statement die de comandos mogelijk maakt uittevoeren
     if (!strcmp(de_input_waarden,"clear")) {
         system("clear");
-    } else if(!strcmp(de_input_waarden,"maak")) {
+    } else if(zoek_maak_functie) {
+        //Als maak gevonden is dus al iemand maak uitvoerd dan word dit uitgevoerd...
         printf("Er word een bestand gemaakt... \n");
     }
 }  
