@@ -81,6 +81,8 @@ int main(int argc, char **argv)
         //Als wgmap word uitgevoerd dan word deze if statement uitgevoerd
         //Dit word uiteindelijke de value van het verwijderen van het map
         char *nieuwe_woord;
+        //Karakter waar het moet gesplits worden
+        char *karater = " ";
     } else {
         //Als commando niet bestaat voer dit onder uit.....
         printf("Commando: %s bestaat niet :(  \n",de_input_waarden);
