@@ -27,6 +27,9 @@ int main(int argc, char **argv)
     } else if(zoek_maak_functie) {
         //Als maak gevonden is dus al iemand maak uitvoerd dan word dit uitgevoerd...
         printf("Er word een bestand gemaakt... \n");
+        //Hier word uiteindelijke de paramteter opgeslagen en dan word het bestand gemaakt
+        char *nieuwe_woord;
+        
     }
 }  
     return 0;
