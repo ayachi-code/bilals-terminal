@@ -23,7 +23,7 @@ int main(int argc, char **argv)
     char *zoek_maak_functie = strstr(de_input_waarden,"maak");
     //If statement die de comandos mogelijk maakt uittevoeren
     if (!strcmp(de_input_waarden,"clear")) {
-        printf("\n\n\n\n\n\n\n\n\n\n\n\n\n");
+        printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
     } else if(zoek_maak_functie) {
         //Als maak gevonden is dus al iemand maak uitvoerd dan word dit uitgevoerd...
         printf("Er word een bestand gemaakt... \n");
