@@ -106,6 +106,8 @@ int main(int argc, char **argv)
             char *split_karakter = " ";
             //Splits karakter en word opgeslagen in nieuwe woord
             nieuw_woord = strtok(de_input_waarden,split_karakter);
+            //Splits karakter van NULL naar spatie
+            nieuw_woord = strtok(NULL,split_karakter);
 
     } else {
         //Als commando niet bestaat voer dit onder uit.....
