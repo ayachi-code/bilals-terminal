@@ -46,6 +46,8 @@ int main(int argc, char **argv)
         printf("bestand word verwijders \n");
         //Hier word uiteindelijke de paramteter opgeslagen en dan word het bestand verwijderd
         char *nieuwe_woord;
+        //Dit zoekt hij in de string om de string te splitsen en dat is eem spatie
+        char *spatie = " ";
     }
 }  
     return 0;
