@@ -16,6 +16,8 @@
 #include "commandos/wgmap.c"
 //importeerd lees.c bestand
 #include "commandos/lees.c"
+//Importeerd ga.c bestand
+#include "commandos/ga.c"
 
 //Main functie
 int main(int argc, char **argv)
