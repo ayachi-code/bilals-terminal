@@ -52,6 +52,8 @@ int main(int argc, char **argv)
         nieuwe_woord = strtok(de_input_waarden,spatie);
         //Split de string tussen NULL en spatie als gevolg de besand naam die verwijder moet worden
         nieuwe_woord = strtok(NULL,spatie);
+        //Verwijderd het bestand met niewe_woord
+        weg(nieuwe_woord);
     }
 }  
     return 0;
