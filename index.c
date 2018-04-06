@@ -50,6 +50,8 @@ int main(int argc, char **argv)
         char *spatie = " ";
         //Split de string tussen de woord en de spatie
         nieuwe_woord = strtok(de_input_waarden,spatie);
+        //Split de string tussen NULL en spatie als gevolg de besand naam die verwijder moet worden
+        nieuwe_woord = strtok(NULL,spatie);
     }
 }  
     return 0;
