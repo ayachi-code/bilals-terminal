@@ -115,6 +115,17 @@ int main(int argc, char **argv)
             //Voert mijn gemaakt lees functie uit
             lees(nieuw_woord);
 
+    } else if(zoek_ga_functie) {
+        //Als iemand ga zoekt dit word uigevoerd
+        char *nieuw_woord;
+        //String waar we kunnen splitsen
+        char *split_karakter = " ";
+        //Splits karakter en word opgeslagen in nieuwe woord
+        nieuw_woord = strtok(de_input_waarden,split_karakter);
+         //Splits karakter van NULL naar spatie
+        nieuw_woord = strtok(NULL,split_karakter);
+        ga(nieuw_woord);
+
     } else {
         //Als commando niet bestaat voer dit onder uit.....
         printf("Commando: %s bestaat niet :(  \n",de_input_waarden);
