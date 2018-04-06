@@ -23,7 +23,7 @@ int main(int argc, char **argv)
     scanf("%[^\n]%*c",de_input_waarden);
     //Zoekt in string naar het woord maak
     char *zoek_maak_functie = strstr(de_input_waarden,"maak");
-    //Zoekt naar verwijder in string scanf
+    //Zoekt naar weg in string scanf
     char *zoek_verwijder_functie = strstr(de_input_waarden,"weg");
     //If statement die de comandos mogelijk maakt uittevoeren
     if (!strcmp(de_input_waarden,"clear")) {
