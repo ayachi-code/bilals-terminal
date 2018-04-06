@@ -85,6 +85,8 @@ int main(int argc, char **argv)
         char *karater = " ";
         //Splits ze waar de spatie komt
         nieuwe_woord = strtok(de_input_waarden,karater);
+        //Splits met NULL en spatie als gevolg de 2e parameter A.K.A de map 
+        nieuwe_woord = strtok(NULL,karater);
     } else {
         //Als commando niet bestaat voer dit onder uit.....
         printf("Commando: %s bestaat niet :(  \n",de_input_waarden);
