@@ -41,6 +41,8 @@ int main(int argc, char **argv)
         nieuwe_woord = strtok(NULL,zoek);
         //Maakt nu ene bestand van de 2e parameter en roept de maak functie die ik heb gemaakt aan
         maak(nieuwe_woord);
+    } else if(zoek_verwijder_functie) {
+        //Als verwijder is gevonden voer onder uit
     }
 }  
     return 0;
