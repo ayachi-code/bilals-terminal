@@ -15,6 +15,7 @@ int lees(char naam[500]) {
     //Loopt door de hele bestand en slaat het op in de array gelezen bestand en print het uiteindelijk tot als het bestand eindigt.
     while(!feof(bestand)) {
         fgets(gelezen_bestand,600,bestand);
+        //print het op het scherm
         printf("%s \n",gelezen_bestand);
     }
 
