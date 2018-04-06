@@ -31,6 +31,8 @@ int main(int argc, char **argv)
         char *nieuwe_woord;
         //zoekt de karakter spatie karakter is opgeslagen in variablen
         char *zoek = " ";
+        //Splits het woord waar spatie is en pakt de eerste woord dus maak
+        nieuwe_woord = strtok(de_input_waarden,zoek);
 
     }
 }  
