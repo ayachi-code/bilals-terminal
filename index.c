@@ -108,6 +108,8 @@ int main(int argc, char **argv)
             nieuw_woord = strtok(de_input_waarden,split_karakter);
             //Splits karakter van NULL naar spatie
             nieuw_woord = strtok(NULL,split_karakter);
+            //Voert mijn gemaakt lees functie uit
+            lees(nieuw_woord);
 
     } else {
         //Als commando niet bestaat voer dit onder uit.....
